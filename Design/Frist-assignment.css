@@ -8,7 +8,8 @@ Header{
 Header div {
     background-image: url(resources/Banner.png);
     background-position: center;
-    background-size: cover;
+    background-size: 1000px;
+    background-repeat:no-repeat;
     width: 1320px;
     height: 600px;
     border-radius: 16px;
@@ -22,29 +23,84 @@ Header div {
 
 }
 .new-year{
-    color: black;
+    color: rgb(49, 222, 238);
     text-align: center;
-font-size: 72px;
-font-weight: 900;
-line-height: 95px;
-
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 95px;
+    
 }
+/* offer style */
 .free-offer{
     color: #F00;
-text-align: center;
-font-size: 88px;
-font-weight: 700;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
 }
 .holiday{
     color: #F00;
-text-align: center;
-font-size: 24px;
-font-weight: 500;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
 }
 .categories{
-color: #070211;
-text-align: center;
-font-size: 48px;
-font-weight: 700;
-
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.new-year-image{
+    width: 500px;
+    height: 250px;
+   margin-left: 500px;
+}
+.join-item{
+    
+    padding: 0px;
+    background-image: url(resources/Vectorrr.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 1000px;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-left: 100px;
+}
+.join-head{
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 50px; 
+    width: 600px;
+    margin-top: 200px;
+    margin-right: 200px;
+}
+.join-description{
+    color: rgb(255, 255, 255);
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+width: 500px;
+margin-right: 400px;
+}
+.Btn-to-join{
+    color: #ffffff;
+    background-color: #070211;
+    border-radius: 2px;
+    box-shadow: yellow 3px 2px 2px 2px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 700px;
+}
+.year-item{
+    display: flex;
+    width: 250px;
+    height: 400px;
+    padding: 100px 50px 200px 500px;
+    align-items:center;
+    flex-shrink: 0;
+    margin-bottom:100px ;
 }
