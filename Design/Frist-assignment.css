@@ -68,7 +68,15 @@ Header div {
     align-items: center;  
     margin-left: 100px;
 }
-.join-head{
+.foreground-image {
+    position:absolute;
+    top: 1550px;
+    right: 350px;
+     width: 250px;
+    height: 300px;
+    opacity:80% ;
+}
+.join-head-container{
     color: #FFF;
     font-size: 55px;
     font-weight: 400;
@@ -76,6 +84,8 @@ Header div {
     width: 600px;
     margin-top: 200px;
     margin-right: 200px;
+
+    
 }
 .join-description{
     color: rgb(255, 255, 255);
@@ -95,12 +105,7 @@ margin-right: 400px;
     font-weight: 700;
     margin-right: 700px;
 }
-.year-item{
-    display: flex;
-    width: 250px;
-    height: 400px;
-    padding: 100px 50px 200px 500px;
-    align-items:center;
-    flex-shrink: 0;
-    margin-bottom:100px ;
-}
+
+
+   
+
